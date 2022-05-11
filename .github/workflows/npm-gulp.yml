@@ -25,4 +25,5 @@ jobs:
     - name: Build
       run: |
         npm install
-        gulp
+        gulp build --ship
+        gulp package-solution --ship
